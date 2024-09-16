@@ -1,0 +1,61 @@
+
+
+<h1 class="pb-3">Gestor de productos , actualizacion constante !!!!</h1>
+
+<h2> productos agregados hasta el momento :D </h2>
+
+<p id="products"></p>
+
+<h2> Agregar Producto :O </h2>
+
+<div>
+    <form class="row g-3">
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputName" placeholder="Nombre">
+            </div>
+        </div>
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputDescription" placeholder="Description">
+            </div>
+        </div>
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputStock" placeholder="stock">
+            </div>
+        </div>
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputPrice" placeholder="price">
+            </div>
+        </div>
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputCategory" placeholder="category">
+            </div>
+        </div>
+        <div class="col-auto">
+            <button id="buttonAdd" type="button" class="btn btn-primary mb-3">Confirm</button>
+        </div>
+    </form>
+</div>
+
+<h2> Borrar un Producto poniendo su ID (9._.)9</h2>
+
+<div>
+    <form class="row g-3">
+        <div class="">
+            <div class="col-auto">
+                <input class="form-control" id="inputIdToDelete" placeholder="Id to Delete">
+            </div>
+        </div>
+        <div class="col-auto">
+            <button id="buttonDelete" type="button" class="btn btn-primary mb-3">Confirm</button>
+        </div>
+    </form>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>
